@@ -22,7 +22,7 @@ The tests run both on **Android Native App** and **Mobile Browser**. Chrome brow
 * [Appium]() - This is the node server which interacts with the mobile devices
 * [WebdriverIO](http://webdriver.io/) - It is the selenium webdriver api bindings for node.js, It has a very simple api which could be used to automate web & browser apps in a fast and scalable way.
 * [Typescript(Javascript)](https://www.typescriptlang.org/) - It is the superset of javascript which has additional static typings and features like JAVA and other languaes. Now you could write your code which compiles to pure javascript.
-* [Cucumber](https://cucumber.io/) - The popular BDD test framework which helps us write automated tests. 
+* [Cucumber](https://cucumber.io/) - The popular BDD test framework which helps us write automated tests.
 
 ## Getting Started
 
@@ -35,11 +35,13 @@ https://nodejs.org/en/download/
 
 3. Andriod(sdk) installed in the system.
 
-4. Set **JAVA_HOME** & **ANDROID_HOME** paths correctly in the system.
+4. XCode if you have a Mac
 
-5. Chrome browser installed.
+5. Set **JAVA_HOME** & **ANDROID_HOME** paths correctly in the system.
 
-6. Text Editor/IDE (Optional) installed-->Sublime/Visual Studio Code/Brackets.
+6. Chrome browser installed.
+
+7. Text Editor/IDE (Optional) installed-->WebStorm/Sublime/Visual Studio Code/Brackets.
 
 **Tip:** Install `npm install -g appium-doctor` and run it from the command-line which checks if your java jdk and android sdk paths are set correctly or not.
 
@@ -50,7 +52,7 @@ https://nodejs.org/en/download/
 * Clone the repository into a folder
 * Go inside the folder and run following command from terminal/command prompt
 ```
-npm install 
+npm install
 ```
 * All the dependencies from package.json and typescript typings would be installed in node_modules folder.
 
@@ -93,7 +95,7 @@ capabilities: [
 ```
 To know your device name you could run the  `adb devices` command which comes out of the box from Android SDK.
 
-The node command to run Native app tests of this project is - 
+The node command to run Native app tests of this project is -
 
 ```
 npm run app-test
@@ -117,7 +119,7 @@ capabilities: [
 ],
 ```
 
-The node command to run browser tests of this project is - 
+The node command to run browser tests of this project is -
 
 ```
 npm run browser-test
@@ -126,7 +128,7 @@ The above command internally calls the WebdriverIO's binary `wdio ./config/wdio.
 
 ### Run Test Suite
 
-You could run both the native app and browser tests by running the following command - 
+You could run both the native app and browser tests by running the following command -
 
 ```
 npm test
@@ -189,7 +191,7 @@ You could find more details about this issue [here](https://stackoverflow.com/qu
 <img src="./images/allure_graph.png" alt="allure_graph.png"/>
 
 ## License
-```   
+```
 MIT License
 
 Copyright (c) 2017 Ram Pasala
