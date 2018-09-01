@@ -1,0 +1,115 @@
+{
+  "uid" : "34fa1058a4aa1f5c",
+  "name" : "I click on top menu button",
+  "fullName" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page.I click on top menu button",
+  "historyId" : "b6a9cbbe4a3f78416ff315837136b058",
+  "time" : {
+    "start" : 1535661891575,
+    "stop" : 1535661891622,
+    "duration" : 47
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"body > nav.navbar.navbar-inverse.navbar-static-top button\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"body > nav.navbar.navbar-inverse.navbar-static-top button\").\n                    at click() - index.js:312:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"body > nav.navbar.navbar-inverse.navbar-static-top button\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"body > nav.navbar.navbar-inverse.navbar-static-top button\").\n                    at click() - index.js:312:3",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/179033a8-9560-4efa-84a3-e112f9194f76/screenshot",
+      "time" : {
+        "start" : 1535661891575,
+        "stop" : 1535661891622,
+        "duration" : 47
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"body > nav.navbar.navbar-inverse.navbar-static-top button\").\n                    at click() - index.js:312:3",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/179033a8-9560-4efa-84a3-e112f9194f76/element",
+        "time" : {
+          "start" : 1535661891575,
+          "stop" : 1535661891619,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cb07d46a081f3614",
+          "name" : "Request",
+          "source" : "cb07d46a081f3614.json",
+          "type" : "application/json",
+          "size" : 105
+        }, {
+          "uid" : "969a6d69ba0244c",
+          "name" : "Response",
+          "source" : "969a6d69ba0244c.json",
+          "type" : "application/json",
+          "size" : 400
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To search appium in google & verify appium webpage"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Navigate & verify appium tutorial page"
+  }, {
+    "name" : "suite",
+    "value" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page"
+  }, {
+    "name" : "testClass",
+    "value" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on top menu button"
+  }, {
+    "name" : "package",
+    "value" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Safari"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34fa1058a4aa1f5c.json",
+  "parameterValues" : [ "Safari" ]
+}

@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"appiumVersion\":\"1.8.1\",\"browserName\":\"Safari\",\"deviceName\":\"iPad Air\",\"deviceOrientation\":\"LANDSCAPE\",\"platformName\":\"iOS\",\"platformVersion\":\"11.4\",\"waitforTimeout\":1800000,\"commandTimeout\":1800000,\"newCommandTimeout\":1800000}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"/Users/dtran/Work/SquarePanda/appium-webdriverio-typescript/features/appium.feature\"]" ],
+  "name" : "spec files"
+} ]

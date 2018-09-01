@@ -1,0 +1,99 @@
+{
+  "uid" : "6f87976b7a24007d",
+  "name" : "I am on google page",
+  "fullName" : "To search appium in google & verify appium webpage Appium Google Search.I am on google page",
+  "historyId" : "aad292081adbda2cbb65a7404ff28428",
+  "time" : {
+    "start" : 1535662020626,
+    "stop" : 1535662020666,
+    "duration" : 40
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/ced273d6-b423-41cf-bf5d-d45a00faf9ef/title",
+      "time" : {
+        "start" : 1535662020630,
+        "stop" : 1535662020665,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc3ff54f9e752f2e",
+        "name" : "Response",
+        "source" : "fc3ff54f9e752f2e.json",
+        "type" : "application/json",
+        "size" : 99
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To search appium in google & verify appium webpage"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Appium Google Search"
+  }, {
+    "name" : "suite",
+    "value" : "To search appium in google & verify appium webpage Appium Google Search"
+  }, {
+    "name" : "testClass",
+    "value" : "To search appium in google & verify appium webpage Appium Google Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on google page"
+  }, {
+    "name" : "package",
+    "value" : "To search appium in google & verify appium webpage Appium Google Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Safari"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fda938c2b4665ec3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535661891224,
+        "stop" : 1535661891266,
+        "duration" : 42
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6f87976b7a24007d.json",
+  "parameterValues" : [ "Safari" ]
+}

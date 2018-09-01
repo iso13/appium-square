@@ -1,0 +1,68 @@
+{
+  "uid" : "63bb9c675b456ff4",
+  "name" : "I should be navigated to appium's official site \"http://appium.io/\"",
+  "fullName" : "To search appium in google & verify appium webpage Navigate to appium's official website.I should be navigated to appium's official site \"http://appium.io/\"",
+  "historyId" : "2984736e2e81f1888ab6ba2356e326c2",
+  "time" : {
+    "start" : 1535662020915,
+    "stop" : 1535662020915,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To search appium in google & verify appium webpage"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Navigate to appium's official website"
+  }, {
+    "name" : "suite",
+    "value" : "To search appium in google & verify appium webpage Navigate to appium's official website"
+  }, {
+    "name" : "testClass",
+    "value" : "To search appium in google & verify appium webpage Navigate to appium's official website"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should be navigated to appium's official site \"http://appium.io/\""
+  }, {
+    "name" : "package",
+    "value" : "To search appium in google & verify appium webpage Navigate to appium's official website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Safari"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e9b6eb2398337ca8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1535661891569,
+        "stop" : 1535661891570,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "63bb9c675b456ff4.json",
+  "parameterValues" : [ "Safari" ]
+}

@@ -1,0 +1,114 @@
+{
+  "uid" : "c8b7c9d533638cf6",
+  "name" : "I type \"appium\"",
+  "fullName" : "To search appium in google & verify appium webpage Appium Google Search.I type \"appium\"",
+  "historyId" : "406173cdd9da2b718749fc049fa6620e",
+  "time" : {
+    "start" : 1535662020666,
+    "stop" : 1535662020730,
+    "duration" : 64
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"#lst-ib\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#lst-ib\").\n                    at setValue(\"appium\") - index.js:312:3",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"#lst-ib\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#lst-ib\").\n                    at setValue(\"appium\") - index.js:312:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/ced273d6-b423-41cf-bf5d-d45a00faf9ef/element",
+      "time" : {
+        "start" : 1535662020668,
+        "stop" : 1535662020725,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "72c36832e046a56c",
+        "name" : "Request",
+        "source" : "72c36832e046a56c.json",
+        "type" : "application/json",
+        "size" : 44
+      }, {
+        "uid" : "fa4cb77d519d1afd",
+        "name" : "Response",
+        "source" : "fa4cb77d519d1afd.json",
+        "type" : "application/json",
+        "size" : 400
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To search appium in google & verify appium webpage"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Appium Google Search"
+  }, {
+    "name" : "suite",
+    "value" : "To search appium in google & verify appium webpage Appium Google Search"
+  }, {
+    "name" : "testClass",
+    "value" : "To search appium in google & verify appium webpage Appium Google Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "I type \"appium\""
+  }, {
+    "name" : "package",
+    "value" : "To search appium in google & verify appium webpage Appium Google Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Safari"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fef46487c5333dbc",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"#lst-ib\").",
+      "time" : {
+        "start" : 1535661891267,
+        "stop" : 1535661891327,
+        "duration" : 60
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c8b7c9d533638cf6.json",
+  "parameterValues" : [ "Safari" ]
+}

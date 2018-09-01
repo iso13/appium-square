@@ -1,0 +1,57 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "An element could not be located on the page using the given search parameters (\"#lst-ib\").",
+      "children" : [ {
+        "name" : "I type \"appium\"",
+        "uid" : "c8b7c9d533638cf6",
+        "parentUid" : "dd0a3cb4b2dd5107051b74d8ca6e4028",
+        "status" : "broken",
+        "time" : {
+          "start" : 1535662020666,
+          "stop" : 1535662020730,
+          "duration" : 64
+        },
+        "flaky" : true,
+        "parameters" : [ "Safari" ]
+      } ],
+      "uid" : "dd0a3cb4b2dd5107051b74d8ca6e4028"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters (\"#rso div._H1m._ees\").",
+      "children" : [ {
+        "name" : "I click on first search link",
+        "uid" : "3048f3fe17b83eba",
+        "parentUid" : "0303fa7175e17a421bb5b22fb9666b67",
+        "status" : "broken",
+        "time" : {
+          "start" : 1535662020743,
+          "stop" : 1535662020915,
+          "duration" : 172
+        },
+        "flaky" : true,
+        "parameters" : [ "Safari" ]
+      } ],
+      "uid" : "0303fa7175e17a421bb5b22fb9666b67"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters (\"body > nav.navbar.navbar-inverse.navbar-static-top button\").",
+      "children" : [ {
+        "name" : "I click on top menu button",
+        "uid" : "8c950ffb6fe40ace",
+        "parentUid" : "1348fcd0b423a0de39d6787e65df3086",
+        "status" : "broken",
+        "time" : {
+          "start" : 1535662020920,
+          "stop" : 1535662020971,
+          "duration" : 51
+        },
+        "flaky" : true,
+        "parameters" : [ "Safari" ]
+      } ],
+      "uid" : "1348fcd0b423a0de39d6787e65df3086"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

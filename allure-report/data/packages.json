@@ -1,0 +1,149 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "To search appium in google & verify appium webpage Appium Google Search",
+    "children" : [ {
+      "name" : "I am on google page",
+      "uid" : "6f87976b7a24007d",
+      "parentUid" : "95f2c907d08464e483af095059447106",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535662020626,
+        "stop" : 1535662020666,
+        "duration" : 40
+      },
+      "flaky" : false,
+      "parameters" : [ "Safari" ]
+    }, {
+      "name" : "I type \"appium\"",
+      "uid" : "c8b7c9d533638cf6",
+      "parentUid" : "95f2c907d08464e483af095059447106",
+      "status" : "broken",
+      "time" : {
+        "start" : 1535662020666,
+        "stop" : 1535662020730,
+        "duration" : 64
+      },
+      "flaky" : true,
+      "parameters" : [ "Safari" ]
+    }, {
+      "name" : "I click on search button",
+      "uid" : "a2dfc3fac98ff848",
+      "parentUid" : "95f2c907d08464e483af095059447106",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1535662020731,
+        "stop" : 1535662020731,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ "Safari" ]
+    }, {
+      "name" : "appium links should be displayed",
+      "uid" : "670950e54ee263b7",
+      "parentUid" : "95f2c907d08464e483af095059447106",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1535662020731,
+        "stop" : 1535662020731,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ "Safari" ]
+    } ],
+    "uid" : "95f2c907d08464e483af095059447106"
+  }, {
+    "name" : "To search appium in google & verify appium webpage Navigate to appium's official website",
+    "children" : [ {
+      "name" : "I click on first search link",
+      "uid" : "3048f3fe17b83eba",
+      "parentUid" : "749212527855695ab7eab6d09cd0dd4f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1535662020743,
+        "stop" : 1535662020915,
+        "duration" : 172
+      },
+      "flaky" : true,
+      "parameters" : [ "Safari" ]
+    }, {
+      "name" : "I should be navigated to appium's official site \"http://appium.io/\"",
+      "uid" : "63bb9c675b456ff4",
+      "parentUid" : "749212527855695ab7eab6d09cd0dd4f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1535662020915,
+        "stop" : 1535662020915,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ "Safari" ]
+    }, {
+      "name" : "I verify the title of the page to be \"Appium: Mobile App Automation Made Awesome.\"",
+      "uid" : "5d69dc3afdc711b1",
+      "parentUid" : "749212527855695ab7eab6d09cd0dd4f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1535662020915,
+        "stop" : 1535662020916,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ "Safari" ]
+    } ],
+    "uid" : "749212527855695ab7eab6d09cd0dd4f"
+  }, {
+    "name" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page",
+    "children" : [ {
+      "name" : "I click on top menu button",
+      "uid" : "8c950ffb6fe40ace",
+      "parentUid" : "46f88601f304911e92b05a0b76ec0fab",
+      "status" : "broken",
+      "time" : {
+        "start" : 1535662020920,
+        "stop" : 1535662020971,
+        "duration" : 51
+      },
+      "flaky" : true,
+      "parameters" : [ "Safari" ]
+    }, {
+      "name" : "I click on tutorial link",
+      "uid" : "810067fdef86f3e3",
+      "parentUid" : "46f88601f304911e92b05a0b76ec0fab",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1535662020971,
+        "stop" : 1535662020972,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ "Safari" ]
+    }, {
+      "name" : "I click on android tutorial link",
+      "uid" : "2e5696fbc5802aac",
+      "parentUid" : "46f88601f304911e92b05a0b76ec0fab",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1535662020972,
+        "stop" : 1535662020973,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ "Safari" ]
+    }, {
+      "name" : "I verify the title of android tutorial page to be \"Native Android Automation\"",
+      "uid" : "b58433a6c732a217",
+      "parentUid" : "46f88601f304911e92b05a0b76ec0fab",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1535662020973,
+        "stop" : 1535662020973,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ "Safari" ]
+    } ],
+    "uid" : "46f88601f304911e92b05a0b76ec0fab"
+  } ]
+}

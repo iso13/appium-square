@@ -1,0 +1,68 @@
+{
+  "uid" : "5d69dc3afdc711b1",
+  "name" : "I verify the title of the page to be \"Appium: Mobile App Automation Made Awesome.\"",
+  "fullName" : "To search appium in google & verify appium webpage Navigate to appium's official website.I verify the title of the page to be \"Appium: Mobile App Automation Made Awesome.\"",
+  "historyId" : "deef576bfb6753f00ddb8c484140746c",
+  "time" : {
+    "start" : 1535662020915,
+    "stop" : 1535662020916,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To search appium in google & verify appium webpage"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Navigate to appium's official website"
+  }, {
+    "name" : "suite",
+    "value" : "To search appium in google & verify appium webpage Navigate to appium's official website"
+  }, {
+    "name" : "testClass",
+    "value" : "To search appium in google & verify appium webpage Navigate to appium's official website"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify the title of the page to be \"Appium: Mobile App Automation Made Awesome.\""
+  }, {
+    "name" : "package",
+    "value" : "To search appium in google & verify appium webpage Navigate to appium's official website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Safari"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ccf6d032a8dfd11d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1535661891570,
+        "stop" : 1535661891570,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d69dc3afdc711b1.json",
+  "parameterValues" : [ "Safari" ]
+}

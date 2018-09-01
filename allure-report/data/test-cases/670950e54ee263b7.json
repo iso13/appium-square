@@ -1,0 +1,68 @@
+{
+  "uid" : "670950e54ee263b7",
+  "name" : "appium links should be displayed",
+  "fullName" : "To search appium in google & verify appium webpage Appium Google Search.appium links should be displayed",
+  "historyId" : "e927ff761146ddb8f18c5dc8d40f2bd2",
+  "time" : {
+    "start" : 1535662020731,
+    "stop" : 1535662020731,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To search appium in google & verify appium webpage"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Appium Google Search"
+  }, {
+    "name" : "suite",
+    "value" : "To search appium in google & verify appium webpage Appium Google Search"
+  }, {
+    "name" : "testClass",
+    "value" : "To search appium in google & verify appium webpage Appium Google Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "appium links should be displayed"
+  }, {
+    "name" : "package",
+    "value" : "To search appium in google & verify appium webpage Appium Google Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Safari"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7e65e6921e3247cb",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1535661891328,
+        "stop" : 1535661891328,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "670950e54ee263b7.json",
+  "parameterValues" : [ "Safari" ]
+}

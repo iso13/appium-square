@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "8308aec4dca90995d14e45cf9d62f308",
+    "name" : "To search appium in google & verify appium webpage Appium Google Search",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 2,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "6ffdd06368855d542d0caf691104d245",
+    "name" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 3,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "852686dd0f5a2e38dd4718ea332e1d5d",
+    "name" : "To search appium in google & verify appium webpage Navigate to appium's official website",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

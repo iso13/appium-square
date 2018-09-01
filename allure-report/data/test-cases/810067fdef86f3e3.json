@@ -1,0 +1,68 @@
+{
+  "uid" : "810067fdef86f3e3",
+  "name" : "I click on tutorial link",
+  "fullName" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page.I click on tutorial link",
+  "historyId" : "79ec3babaa55e5de4f16df5bc403252d",
+  "time" : {
+    "start" : 1535662020971,
+    "stop" : 1535662020972,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To search appium in google & verify appium webpage"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Navigate & verify appium tutorial page"
+  }, {
+    "name" : "suite",
+    "value" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page"
+  }, {
+    "name" : "testClass",
+    "value" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on tutorial link"
+  }, {
+    "name" : "package",
+    "value" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Safari"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "873aeb951ac0e75e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1535661891623,
+        "stop" : 1535661891623,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "810067fdef86f3e3.json",
+  "parameterValues" : [ "Safari" ]
+}

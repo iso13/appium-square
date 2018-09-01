@@ -1,0 +1,136 @@
+{
+  "uid" : "3048f3fe17b83eba",
+  "name" : "I click on first search link",
+  "fullName" : "To search appium in google & verify appium webpage Navigate to appium's official website.I click on first search link",
+  "historyId" : "8acf8c400bf92809b9333e9110cbb9c4",
+  "time" : {
+    "start" : 1535662020743,
+    "stop" : 1535662020915,
+    "duration" : 172
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"#rso div._H1m._ees\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#rso div._H1m._ees\").\n                    at click() - index.js:312:3",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"#rso div._H1m._ees\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#rso div._H1m._ees\").\n                    at click() - index.js:312:3",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/ced273d6-b423-41cf-bf5d-d45a00faf9ef/screenshot",
+      "time" : {
+        "start" : 1535662020743,
+        "stop" : 1535662020915,
+        "duration" : 172
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"#rso div._H1m._ees\").\n                    at click() - index.js:312:3",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/ced273d6-b423-41cf-bf5d-d45a00faf9ef/element",
+        "time" : {
+          "start" : 1535662020743,
+          "stop" : 1535662020912,
+          "duration" : 169
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3828f9cd3cf9d3de",
+          "name" : "Request",
+          "source" : "3828f9cd3cf9d3de.json",
+          "type" : "application/json",
+          "size" : 66
+        }, {
+          "uid" : "7abbb51f98fd5e00",
+          "name" : "Screenshot",
+          "source" : "7abbb51f98fd5e00.png",
+          "type" : "image/png",
+          "size" : 219508
+        }, {
+          "uid" : "3eab3fc216265463",
+          "name" : "Response",
+          "source" : "3eab3fc216265463.json",
+          "type" : "application/json",
+          "size" : 400
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To search appium in google & verify appium webpage"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Navigate to appium's official website"
+  }, {
+    "name" : "suite",
+    "value" : "To search appium in google & verify appium webpage Navigate to appium's official website"
+  }, {
+    "name" : "testClass",
+    "value" : "To search appium in google & verify appium webpage Navigate to appium's official website"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on first search link"
+  }, {
+    "name" : "package",
+    "value" : "To search appium in google & verify appium webpage Navigate to appium's official website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Safari"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2ac0cd0f99e15ed8",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"#rso div._H1m._ees\").",
+      "time" : {
+        "start" : 1535661891339,
+        "stop" : 1535661891569,
+        "duration" : 230
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3048f3fe17b83eba.json",
+  "parameterValues" : [ "Safari" ]
+}
